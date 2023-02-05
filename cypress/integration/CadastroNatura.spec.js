@@ -12,6 +12,10 @@ const campoDataNasc = "div.natds2 div.natds75 div.MuiPaper-root.natds76.MuiPaper
 const generoNaoEspec = "div.natds2 div.natds75 div.MuiPaper-root.natds76.MuiPaper-elevation1.MuiPaper-rounded div.MuiBox-root.natds90.natds77:nth-child(1) div.MuiFormControl-root.natds91.natds78:nth-child(10) div.MuiFormGroup-root.natds82 label.MuiFormControlLabel-root:nth-child(3) span.MuiButtonBase-root.MuiIconButton-root.natds103.MuiRadio-root.MuiRadio-colorPrimary.MuiIconButton-colorPrimary span.MuiIconButton-label > input.natds106"
 const campoTelefone = "div.natds2 div.natds75 div.MuiPaper-root.natds76.MuiPaper-elevation1.MuiPaper-rounded div.MuiBox-root.natds90.natds77:nth-child(1) div.MuiFormControl-root.natds91.natds78:nth-child(11) div.MuiFormControl-root.natds91 div.MuiInputBase-root.MuiInput-root.natds96.natds137.MuiInputBase-formControl.MuiInput-formControl > input.MuiInputBase-input.MuiInput-input"
 const btnAceptTerm = "#acceptedterms"
+const btnCriarConta = ".natds141 > .MuiButtonBase-root"
+const perfilLogado = ".natds262 > .MuiBox-root > .MuiTypography-caption"
+
+
 
 describe('Testes Natura', () => {
 
@@ -20,5 +24,8 @@ describe('Testes Natura', () => {
         cy.preecherCadastro(PrimeiroNome, Sobrenome, email, campoSenha, campoRepitaSenha, campoCpf, campoDataNasc, campoTelefone)
         cy.get(generoNaoEspec).click();
         cy.get(btnAceptTerm).click();
+        cy.get(btnCriarConta).click();
+        cy.wait(3000)
+        cy.contains('Meus acessos').click().should('be.visible');
     });
 });
