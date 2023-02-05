@@ -1,3 +1,5 @@
+const el = require('./elementsNatura').ELEMENTSNAT;
+
 class CadastroNatura {
     clicarAceptTerm() {
         cy.get(el.btnAceptTerm).click();
@@ -8,7 +10,8 @@ class CadastroNatura {
     }
 
     clicarGeneroNaoEspecificado() {
-        cy.get(generoNaoEspec).click();
+        cy.get(el.generoNaoEspecNatura).click();
     }
 
 }
+module.exports = new CadastroNatura();

@@ -1,4 +1,4 @@
-const el = require('./elementsNatura').ELEMENTS;
+const el = require('./elementsAesop').ELEMENTS;
 
 
 class CadastroAesop{
@@ -12,7 +12,9 @@ class CadastroAesop{
     }
 
     clicarGeneroNaoEspecificado(){
-     cy.get(generoNaoEspec).click();
+     cy.get(el.generoNaoEspec).click();
     }
 
+   
 }
+module.exports = new CadastroAesop();
