@@ -9,13 +9,13 @@
       - Javascript
       - Eslint - Para analisar a qualidade e boas praticas do código (se quiser executar basta rodar o comando: npm run lint
       - Reports
-      - Bibliotecas para geração de massa randomica (chance ou faker)
+      - Bibliotecas para geração de massa randômica (chance ou faker)
       - Page Object para manutenibilidade e reuso do código
 
 
-vamos ao código!! 
+Vamos ao código!! 
 
-- Os dois ceários passaram!
+- Os dois cenários passaram! 
 
 ![image](https://user-images.githubusercontent.com/72051035/216797518-b95f0ed1-39c8-4d53-babb-2216a6081256.png)
 
@@ -29,9 +29,9 @@ https://user-images.githubusercontent.com/72051035/216797570-af072661-488c-413f-
 - Em caso de falhas na execução é gerado um screenshoot no ponto exato da quebra e armazenado na pasta screenshots
 
 
-Para mais detalhes ou duvidas entrar em contato:
+Para mais detalhes ou dúvidas, entrar em contato:
 
-<img src="https://recrealab40.com.br/uploads/1/0/8/2/108251915/published/3537_2.jpg?1498600675">]
+<img src="https://recrealab40.com.br/uploads/1/0/8/2/108251915/published/3537_2.jpg?1498600675">
 
  <div>
 
