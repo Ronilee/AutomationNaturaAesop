@@ -19,12 +19,22 @@ Vamos ao código!!
 
 ![image](https://user-images.githubusercontent.com/72051035/216797518-b95f0ed1-39c8-4d53-babb-2216a6081256.png)
 
+Plugin Report
+
+![image](https://user-images.githubusercontent.com/72051035/217868526-d3b70282-aa5a-4ca9-8c7f-b36a5a5a9b5a.png)
+
+
 - Como evidências de execução foi gerada uma pasta (videos) dos dois cenários
 
-https://user-images.githubusercontent.com/72051035/216797568-b63f1c48-eac2-43ae-9287-2b7b24d811a9.mp4
 
 
-https://user-images.githubusercontent.com/72051035/216797570-af072661-488c-413f-a4e7-82dd6c968f8e.mp4
+https://user-images.githubusercontent.com/72051035/217868821-73a01331-a854-4917-93b5-1bdcf4933fc5.mp4
+
+
+
+https://user-images.githubusercontent.com/72051035/217868882-63d05725-8f08-4bfb-9dd7-327c9e5bb5ff.mp4
+
+
 
 - Em caso de falhas na execução é gerado um screenshoot no ponto exato da quebra e armazenado na pasta screenshots
 
